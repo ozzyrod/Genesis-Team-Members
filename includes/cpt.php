@@ -38,11 +38,11 @@ function gtmp_register_team_post_type() {
 		'show_in_menu' => true,
 		'rewrite' => array( 'slug' => 'team-members'),
 		'capability_type' => 'post',
-		'has_archive' => false,
+		'has_archive' => true,
 		'hierarchical' => false,
 		'menu_icon' => '',
 		'menu_position' => 5,
-		'supports' => array('title','editor','thumbnail','excerpt' )
+		'supports' => array('title','editor','thumbnail' )
 	);
 
 	register_post_type( 'team-member', $args );
