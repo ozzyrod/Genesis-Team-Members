@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'gtmp-icon-fonts';
+	src:url('fonts/gtmp-icon-fonts.eot');
+	src:url('fonts/gtmp-icon-fonts.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gtmp-icon-fonts.woff') format('woff'),
+		url('fonts/gtmp-icon-fonts.ttf') format('truetype'),
+		url('fonts/gtmp-icon-fonts.svg#gtmp-icon-fonts') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'gtmp-icon-fonts';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google-plus:before {
+	content: "\e495";
+}
+.icon-facebook:before {
+	content: "\e499";
+}
+.icon-twitter:before {
+	content: "\e49e";
+}
+.icon-dribbble:before {
+	content: "\e4b0";
+}
+.icon-github:before {
+	content: "\e4bc";
+}
+.icon-linkedin:before {
+	content: "\e4cf";
+}
+.icon-instagram:before {
+	content: "\e49c";
+}
+.icon-pinterest:before {
+	content: "\e4d7";
+}
+.icon-mail:before {
+	content: "\e48e";
+}
+.icon-user-plus:before {
+	content: "\e188";
+}
