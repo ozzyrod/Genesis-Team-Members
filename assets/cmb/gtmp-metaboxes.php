@@ -30,6 +30,12 @@ function gtmp_metaboxes( array $meta_boxes ) {
 		// 'cmb_styles' => true, // Enqueue the CMB stylesheet on the frontend
 		'fields'     => array(
 			array(
+				'name' => __( 'Description', 'gtmp' ),
+				'desc' => __( 'Short description of this person', 'gtmp' ),
+				'id'   => $prefix . 'description',
+				'type' => 'textarea_small',
+			),
+			array(
 				'name' => __( 'Facebook URL', 'gtmp' ),
 				'desc' => __( 'Full address', 'gtmp' ),
 				'id'   => $prefix . 'facebookurl',
@@ -63,7 +69,7 @@ function gtmp_metaboxes( array $meta_boxes ) {
 				'name' => __( 'Email Address', 'gtmp' ),
 				'desc' => __( 'Email address', 'gtmp' ),
 				'id'   => $prefix . 'emailurl',
-				'type' => 'text_url',
+				'type' => 'text_email',
 			),
 			array(
 				'name' => __( 'Github URL', 'gtmp' ),
