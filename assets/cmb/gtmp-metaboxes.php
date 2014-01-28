@@ -50,7 +50,7 @@ function gtmp_metaboxes( array $meta_boxes ) {
 			array(
 				'name' => __( 'Google+ URL', 'gtmp' ),
 				'desc' => __( 'Full address', 'gtmp' ),
-				'id'   => $prefix . 'googleplusurl',
+				'id'   => $prefix . 'gplusurl',
 				'type' => 'text_url',
 			),
 			array(

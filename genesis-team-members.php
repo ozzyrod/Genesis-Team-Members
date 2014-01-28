@@ -137,10 +137,10 @@ class Genesis_Team_Members {
 		/** Require Plugin Files*/
 		require_once GTMP_PLUGIN_DIR . 'includes/cpt.php';
 		require_once GTMP_PLUGIN_DIR . 'includes/install.php';
-		//require_once GTMP_PLUGIN_DIR . 'includes/functions.php';
+		require_once GTMP_PLUGIN_DIR . 'includes/functions.php';
 		require_once GTMP_PLUGIN_DIR . 'includes/scripts.php';
-		//require_once GTMP_PLUGIN_DIR . 'includes/widgets.php';
-		//require_once GTMP_PLUGIN_DIR . 'includes/genesis-team-members-widget.php';
+		require_once GTMP_PLUGIN_DIR . 'includes/widgets.php';
+		require_once GTMP_PLUGIN_DIR . 'includes/genesis-team-members-widget.php';
 		require_once GTMP_PLUGIN_DIR . 'assets/cmb/gtmp-metaboxes.php';
 		if( is_admin() ) {
 			require_once GTMP_PLUGIN_DIR . 'includes/admin/scripts.php';
