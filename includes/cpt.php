@@ -42,7 +42,7 @@ function gtmp_register_team_post_type() {
 		'hierarchical' => false,
 		'menu_icon' => '',
 		'menu_position' => 5,
-		'supports' => array('title','editor','thumbnail' )
+		'supports' => array('title','editor','thumbnail', 'genesis-layouts', 'genesis-seo', 'genesis-cpt-archives-settings' )
 	);
 
 	register_post_type( 'team-member', $args );
