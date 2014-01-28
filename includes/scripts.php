@@ -22,7 +22,6 @@ add_action( 'wp_enqueue_scripts', 'gtmp_enqueue_styles' );
 function gtmp_enqueue_styles() {
 	$css_url = GTMP_PLUGIN_URL . 'assets/css/';
 	// Enqueue styles
-	wp_enqueue_style( 'gtmp-icon-fonts', $css_url . 'gtmp-icon-fonts.css', array(), GTMP_VERSION );
 	wp_register_style( 'gtmp-styles', $css_url . 'gtmp-styles.css', array(), GTMP_VERSION );
 
 	if ( ! wp_style_is( 'font-awesome', $list = 'enqueued' ) ) {

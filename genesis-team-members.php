@@ -141,7 +141,7 @@ class Genesis_Team_Members {
 		require_once GTMP_PLUGIN_DIR . 'includes/scripts.php';
 		require_once GTMP_PLUGIN_DIR . 'includes/widgets.php';
 		require_once GTMP_PLUGIN_DIR . 'includes/genesis-team-members-widget.php';
-		require_once GTMP_PLUGIN_DIR . 'assets/cmb/gtmp-metaboxes.php';
+		require_once GTMP_PLUGIN_DIR . 'includes/cmb/gtmp-metaboxes.php';
 		if( is_admin() ) {
 			require_once GTMP_PLUGIN_DIR . 'includes/admin/scripts.php';
 		}

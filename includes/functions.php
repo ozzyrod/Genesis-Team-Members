@@ -22,3 +22,15 @@ function gtmp_show_image_sizes($sizes) {
 
 	return $sizes;
 }
+
+function gtmp_team_member_archive_template( $archive_template ) {
+	global $post;
+
+	if ( is_post_type_archive ( 'team-member' ) ) {
+		$archive_template = GTMP_PLUGIN_DIR . 'includes/archive_team-member.php';
+	}
+
+	return $archive_template;
+}
+
+//add_filter( 'archive_template', 'gtmp_team_member_archive_template' ) ;
